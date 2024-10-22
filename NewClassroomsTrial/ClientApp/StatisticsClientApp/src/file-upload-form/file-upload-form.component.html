@@ -1,0 +1,14 @@
+<form [formGroup]="uploadForm" (ngSubmit)="onSubmit()">
+  
+    <div>
+      <label for="format">Select Format</label>
+      <select id="format" formControlName="format">
+        <option value="json">JSON</option>
+        <option value="xml">XML</option>
+        <option value="txt">Plain Text</option>
+      </select>
+    </div>
+  
+    <button type="submit">Submit</button>
+  </form>
+  

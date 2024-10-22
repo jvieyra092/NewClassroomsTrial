@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewClassroomsTrial", "NewClassroomsTrial\NewClassroomsTrial.csproj", "{D1BCBCF2-D01E-45C3-BC83-9ED56ABD99B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewClassroomsUnitTest", "NewClassroomsUnitTest\NewClassroomsUnitTest.csproj", "{2C5174FA-9231-4C04-A304-2049A278EA5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1BCBCF2-D01E-45C3-BC83-9ED56ABD99B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BCBCF2-D01E-45C3-BC83-9ED56ABD99B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BCBCF2-D01E-45C3-BC83-9ED56ABD99B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BCBCF2-D01E-45C3-BC83-9ED56ABD99B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5174FA-9231-4C04-A304-2049A278EA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5174FA-9231-4C04-A304-2049A278EA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5174FA-9231-4C04-A304-2049A278EA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5174FA-9231-4C04-A304-2049A278EA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90C1D5F0-C950-405C-9745-751216C5CD26}
+	EndGlobalSection
+EndGlobal

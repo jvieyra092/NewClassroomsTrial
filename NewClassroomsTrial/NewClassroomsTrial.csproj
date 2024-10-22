@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonConverter.Newtonsoft.Json" Version="0.7.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--<Folder Include="ClientApp\" />
+    <Folder Include="Release\" />-->
+  </ItemGroup>
+
+    <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
+		<!-- This will build Angular when publishing -->
+		<!--<Exec Command="npm prefix ClientApp/StatisticsClientApp/package.json install" />-->
+		<Exec Command="npm --prefix ClientApp/StatisticsClientApp run build" />
+	</Target>
+
+</Project>
